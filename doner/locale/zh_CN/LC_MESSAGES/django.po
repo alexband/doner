@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-08 09:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: doner/views.py:47
+msgid "Password changed."
+msgstr "密码修改"
+
+#: doner/templates/access-denied.html:8
+msgid "Access denied"
+msgstr "拒绝"
+
+#: doner/templates/base.html:22 project/models.py:45
+#: project/templates/project/project-activity.html:8
+#: project/templates/project/project_form.html:6
+#: project/templates/project/ticket.html:10
+#: project/templates/project/tickets.html:23
+msgid "Projects"
+msgstr "项目"
+
+#: doner/templates/base.html:28 project/templates/project/my_tickets.html:4
+#: project/templates/project/my_tickets.html:14
+msgid "My tickets"
+msgstr "我的工单"
+
+#: doner/templates/base.html:30
+msgid "Logout"
+msgstr "登出"
+
+#: doner/templates/base.html:32 doner/templates/login.html:19
+msgid "Login"
+msgstr "登入"
+
+#: doner/templates/login.html:13
+msgid "Username"
+msgstr "用户名"
+
+#: doner/templates/login.html:16
+msgid "Password"
+msgstr "密码"
+
+#: doner/templates/auth/password_change_form.html:5
+#: doner/templates/auth/password_change_form.html:12
+#: doner/templates/auth/user_detail.html:13
+msgid "Change password"
+msgstr "修改密码"
+
+#: doner/templates/auth/user_detail.html:8
+msgid "Codename"
+msgstr "用户名"
+
+#: doner/templates/auth/user_detail.html:12
+#: doner/templates/auth/user_form.html:6
+#: doner/templates/auth/user_form.html:15
+msgid "Change e-mail"
+msgstr ""
+
+#: doner/templates/auth/user_detail.html:22
+#: project/templates/project/project_list.html:11
+msgid "Project list"
+msgstr "项目列表"
+
+#: doner/templates/auth/user_detail.html:28
+#: project/templates/project/project_list.html:16
+msgid "private"
+msgstr "私有"
+
+#: doner/templates/auth/user_detail.html:33
+msgid "No projects for now."
+msgstr "还没有项目"
+
+#: project/models.py:8
+msgid "Open"
+msgstr "新建的"
+
+#: project/models.py:9
+msgid "In progress"
+msgstr "处理中"
+
+#: project/models.py:10
+msgid "Closed"
+msgstr "已关闭"
+
+#: project/models.py:14
+msgid "High"
+msgstr "高优先"
+
+#: project/models.py:15
+msgid "Medium"
+msgstr "中级"
+
+#: project/models.py:16
+msgid "Low"
+msgstr "低级"
+
+#: project/models.py:20
+msgid "Task"
+msgstr "任务"
+
+#: project/models.py:21
+msgid "Bug"
+msgstr "故障"
+
+#: project/models.py:22
+msgid "Improvement"
+msgstr "改进"
+
+#: project/models.py:23
+msgid "Research"
+msgstr "研究"
+
+#: project/models.py:27
+msgid "Update"
+msgstr "更新"
+
+#: project/models.py:28
+msgid "Comments"
+msgstr "评论"
+
+#: project/models.py:34 project/models.py:58
+msgid "Name"
+msgstr "名字"
+
+#: project/models.py:35 project/models.py:59 project/models.py:88
+#: project/models.py:139 project/templates/project/project-activity.html:45
+#: project/templates/project/ticket.html:51
+msgid "Description"
+msgstr "描述"
+
+#: project/models.py:36
+msgid "Private"
+msgstr "私有"
+
+#: project/models.py:37 project/models.py:73
+msgid "Created date"
+msgstr "创建日期"
+
+#: project/models.py:44 project/models.py:57 project/models.py:85
+msgid "Project"
+msgstr "项目"
+
+#: project/models.py:60
+msgid "Deadline"
+msgstr "完成期限"
+
+#: project/models.py:63 project/models.py:86
+#: project/templates/project/ticket.html:43
+msgid "Milestone"
+msgstr "里程"
+
+#: project/models.py:64
+msgid "Milestones"
+msgstr "里程"
+
+#: project/models.py:76
+msgid "Attachment"
+msgstr "附件"
+
+#: project/models.py:77
+msgid "Attachments"
+msgstr "附件"
+
+#: project/models.py:87 project/templates/project/my_tickets.html:24
+#: project/templates/project/project-activity.html:23
+#: project/templates/project/tickets.html:39
+msgid "Title"
+msgstr "标题"
+
+#: project/models.py:89 project/models.py:141
+#: project/templates/project/ticket.html:27
+msgid "Submited date"
+msgstr "提交日期"
+
+#: project/models.py:90 project/models.py:142
+msgid "Modified date"
+msgstr "修改日期"
+
+#: project/models.py:92 project/templates/project/ticket.html:39
+msgid "Submitter"
+msgstr "创建者"
+
+#: project/models.py:93 project/templates/project/ticket.html:45
+msgid "Assigned to"
+msgstr "分配给"
+
+#: project/models.py:95 project/templates/project/my_tickets.html:25
+#: project/templates/project/ticket.html:25
+#: project/templates/project/tickets.html:40
+msgid "Status"
+msgstr "状态"
+
+#: project/models.py:96 project/templates/project/ticket.html:31
+msgid "Priority"
+msgstr "优先级"
+
+#: project/models.py:97 project/templates/project/ticket.html:37
+msgid "Ticket type"
+msgstr "工单类型"
+
+#: project/models.py:102 project/templates/project/ticket.html:12
+msgid "Ticket"
+msgstr "工单"
+
+#: project/models.py:103
+msgid "Tickets"
+msgstr "工单列表"
+
+#: project/models.py:137 project/templates/project/project-activity.html:44
+msgid "Author"
+msgstr "作者"
+
+#: project/models.py:138
+msgid "Log type"
+msgstr "评论类型"
+
+#: project/models.py:145 project/templates/project/ticket.html:58
+msgid "Log"
+msgstr "评论"
+
+#: project/models.py:146
+msgid "Logs"
+msgstr "评论们"
+
+#: project/signals.py:94
+#, python-format
+msgid "[update] %s"
+msgstr ""
+
+#: project/signals.py:135
+#, python-format
+msgid "[new ticket] %s"
+msgstr ""
+
+#: project/views.py:137
+msgid "updated"
+msgstr ""
+
+#: project/templates/project/comment_notification.txt:2
+#, python-format
+msgid ""
+"\n"
+"%(author)s just added a new comment to ticket %(ticket_title)s.\n"
+"\n"
+"%(msg)s\n"
+"\n"
+"Ticket url: %(host)s%(ticket_url)s\n"
+msgstr ""
+
+#: project/templates/project/my_tickets.html:17
+#: project/templates/project/tickets.html:32
+msgid "todo"
+msgstr ""
+
+#: project/templates/project/my_tickets.html:18
+#: project/templates/project/tickets.html:33
+msgid "closed"
+msgstr ""
+
+#: project/templates/project/my_tickets.html:26
+#: project/templates/project/tickets.html:41
+msgid "Type"
+msgstr ""
+
+#: project/templates/project/my_tickets.html:27
+#: project/templates/project/project-activity.html:24
+#: project/templates/project/tickets.html:42
+msgid "Submit date"
+msgstr ""
+
+#: project/templates/project/my_tickets.html:28
+#: project/templates/project/ticket.html:33
+#: project/templates/project/tickets.html:43
+msgid "Last update"
+msgstr ""
+
+#: project/templates/project/new_ticket_notification.txt:2
+#, python-format
+msgid ""
+"\n"
+"%(ticket_submitter)s just created a new ticket %(ticket_title)s.\n"
+"\n"
+"Priority: %(ticket_priority)s\n"
+"Status: %(ticket_status)s\n"
+"Type: %(ticket_type)s\n"
+"Assigned to: %(ticket_assigned_to)s\n"
+"\n"
+"%(ticket_description)s\n"
+"\n"
+"Ticket url: %(host)s%(ticket_url)s\n"
+msgstr ""
+
+#: project/templates/project/project-activity.html:4
+#: project/templates/project/project-activity.html:10
+msgid "Activity"
+msgstr ""
+
+#: project/templates/project/project-activity.html:15
+#: project/templates/project/tickets.html:17
+msgid "Project activity"
+msgstr ""
+
+#: project/templates/project/project-activity.html:19
+msgid "New tickets"
+msgstr "新建工单"
+
+#: project/templates/project/project-activity.html:40
+msgid "Last actions"
+msgstr ""
+
+#: project/templates/project/project_form.html:9
+#: project/templates/project/project_form.html:18
+#: project/templates/project/project_form.html:29
+#: project/templates/project/tickets.html:15
+msgid "Update project"
+msgstr "更改项目"
+
+#: project/templates/project/project_form.html:11
+#: project/templates/project/project_form.html:20
+#: project/templates/project/project_form.html:31
+#: project/templates/project/project_list.html:6
+msgid "Create project"
+msgstr "新建项目"
+
+#: project/templates/project/project_list.html:26
+msgid "Last active"
+msgstr ""
+
+#: project/templates/project/project_list.html:27
+msgid "Members"
+msgstr "成员"
+
+#: project/templates/project/ticket.html:17
+#: project/templates/project/ticket_form.html:6
+#: project/templates/project/ticket_form.html:17
+msgid "Update ticket"
+msgstr "更新工单"
+
+#: project/templates/project/ticket.html:87
+#: project/templates/project/ticket.html:98
+msgid "Add comment"
+msgstr "添加评论"
+
+#: project/templates/project/ticket.html:95
+msgid "Enter your comment"
+msgstr "写评论"
+
+#: project/templates/project/ticket_form.html:8
+#: project/templates/project/ticket_form.html:19
+#: project/templates/project/tickets.html:18
+msgid "Create ticket"
+msgstr "创建工单"
+
+#: project/templates/project/ticket_notification.txt:2
+#, python-format
+msgid ""
+"\n"
+"%(author)s had just updated the ticket %(ticket_title)s.\n"
+"\n"
+"%(msg)s\n"
+"\n"
+"Ticket url: %(host)s%(ticket_url)s\n"
+msgstr ""

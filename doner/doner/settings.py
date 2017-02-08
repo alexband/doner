@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for doner project.
 
@@ -53,6 +54,7 @@ MIDDLEWARE_CLASSES = (
 
 TEMPLATE_CONTEXT_PROCESSORS = TCP + (
     'django.core.context_processors.request',
+    "django.core.context_processors.i18n",
 )
 
 ROOT_URLCONF = 'doner.urls'
@@ -70,6 +72,7 @@ LOCALE_PATHS = (
 )
 LANGUAGES = (
     ('en', 'English'),
+    ('zh-cn', ('中文简体')),
     ('pl', 'Polish'),
 )
 LANGUAGE_CODE = 'en-us'
